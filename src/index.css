@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    user-select: none;
+    overflow-x: hidden;
+    
+}
+.swiper-button-next,
+.swiper-button-prev{
+    color: black;
+    position: absolute;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+    color: white;
+}
+.swiper-button-next{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+
+}
+.swiper-button-prev{
+    position: absolute;
+    left: 86%;
+    top: 10%;
+    
+
+}
+p:hover{
+color: white;
+opacity: 100%;
+transition: 0.2s ease-in;
+}
